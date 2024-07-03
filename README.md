@@ -8,9 +8,12 @@ Este projeto reúne as atividades práticas e teóricas realizadas na disciplina
 
 ## Navegação
 
-[Navegue até a pasta da atividade desejada](https://github.com/LucasLopes285/programação-web)
+Navegue até a pasta da atividade desejada
+
     
 
 ## Contato
 
-Lucas Lopes Haddad Carvalho - [email para contato](lucas.haddad15@gmail.com)  
+Lucas Lopes Haddad Carvalho 
+
+Email: lucas.haddad15@gmail.com  
