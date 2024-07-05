@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Filmes</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,19 +31,33 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        h1 {
+            color: #ff6347;
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
         h2 {
             color: #4682b4;
-            font-size: 2em;
-            margin-bottom: 10px;
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #2e8b57;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1em;
             line-height: 1.6;
+            margin-bottom: 20px;
         }
-        img.banner {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -51,17 +65,21 @@
     <header>
         <a href="index.html">Sobre mim</a> |
         <a href="convite.html">Convite de aniversário</a> |
-        <a href="contato.html">Contato</a>
+        <a href="contato.html">Contato</a> |
         <a href="filmes.html">Filmes preferidos</a>
-
     </header>
 
     <div class="container">
-        <img src="https://static.vecteezy.com/ti/fotos-gratis/p1/3334910-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg" alt="Imagem de apresentação" class="banner">
-        <h2>Sobre mim</h2>
-        <p>
-            Olá! Eu sou Lucas Lopes Haddad Carvalho, estudante de Ciência da Computação. Tenho bastante interesse em ciência e filosofia. Sou corinthiano de coração e adoro assistir aos jogos do meu time, torcendo fervorosamente a cada partida. Nas horas vagas, gosto de sair com meus amigos, aproveitando momentos de descontração e diversão.
-        </p>
+        <h1>Filmes Preferidos do Lucas</h1>
+        <h2>Esses são os meus filmes preferidos.</h2>
+        <hr />
+        <h3>A Ilha do Medo</h3>
+        <img src="https://cdn.culturagenial.com/imagens/ilha-do-medo-cartaz-cke.jpg" width="500" height="400">
+        <h3>Apocalypse Now</h3>
+        <img src="https://www.cineplayers.com/sites/default/files/posters/2020/08/apocalypse.jpg" width="500" height="400">
+        <h3>O Poderoso Chefão</h3>
+        <img src="https://www.cineplayers.com/sites/default/files/posters/2020/08/god.jpg" width="500" height="400">
     </div>
 </body>
 </html>
+
